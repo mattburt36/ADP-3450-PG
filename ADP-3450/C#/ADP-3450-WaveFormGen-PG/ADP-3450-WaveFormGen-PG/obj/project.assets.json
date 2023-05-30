@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG.csproj",
+      "projectUniqueName": "C:\\Users\\eng\\Desktop\\Workspace\\FCTech\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG.csproj",
       "projectName": "ADP-3450-WaveFormGen-PG",
-      "projectPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG.csproj",
+      "projectPath": "C:\\Users\\eng\\Desktop\\Workspace\\FCTech\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG.csproj",
       "packagesPath": "C:\\Users\\eng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\obj\\",
+      "outputPath": "C:\\Users\\eng\\Desktop\\Workspace\\FCTech\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\ADP-3450-WaveFormGen-PG\\ADP-3450-WaveFormGen-PG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eng\\AppData\\Roaming\\NuGet\\NuGet.Config",
