@@ -37,15 +37,15 @@ rgdSamples = new double[cSamples];
 
 // configure trigger
 dwf.FDwfAnalogInTriggerSourceSet(hdwf, dwf.trigsrcDetectorAnalogIn);
-dwf.FDwfAnalogInTriggerAutoTimeoutSet(hdwf, 10.0);
+dwf.FDwfAnalogInTriggerAutoTimeoutSet(hdwf, 20);
 dwf.FDwfAnalogInTriggerChannelSet(hdwf, 0);
 dwf.FDwfAnalogInTriggerTypeSet(hdwf, dwf.trigtypeEdge);
 dwf.FDwfAnalogInTriggerLevelSet(hdwf, 1.0);
 dwf.FDwfAnalogInTriggerConditionSet(hdwf, dwf.trigcondRisingPositive);
 
 // start
-dwf.FDwfAnalogInConfigure(hdwf, 0, 1);
-
+dwf.FDwfAnalogInConfigure(hdwf, 0, 1);            
+                                                                                                                                                                                                                                                                                                                                                                                                           
 Console.WriteLine("Waiting for triggered or auto acquisition\n");
 do
 {

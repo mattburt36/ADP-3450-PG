@@ -1,0 +1,15 @@
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\bin\Debug\net7.0\Generator-Listener-Example.exe
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\bin\Debug\net7.0\Generator-Listener-Example.deps.json
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\bin\Debug\net7.0\Generator-Listener-Example.runtimeconfig.json
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\bin\Debug\net7.0\Generator-Listener-Example.dll
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\bin\Debug\net7.0\Generator-Listener-Example.pdb
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.csproj.AssemblyReference.cache
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.AssemblyInfoInputs.cache
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.AssemblyInfo.cs
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.csproj.CoreCompileInputs.cache
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.dll
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\refint\Generator-Listener-Example.dll
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.pdb
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\Generator-Listener-Example.genruntimeconfig.cache
+C:\Users\eng\Desktop\Workspace\CODE\sloan\ADP-3450-PG\ADP-3450\CodeSamples\cs\Generator-Listener-Example\Generator-Listener-Example\obj\Debug\net7.0\ref\Generator-Listener-Example.dll

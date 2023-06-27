@@ -59,8 +59,6 @@ while (cSamples < nSamples)
     cSamples += cAvailable;
 }
 
-Console.WriteLine("done\n");
-
 if (fLost)
 {
     Console.WriteLine("Samples were lost! Reduce frequency");

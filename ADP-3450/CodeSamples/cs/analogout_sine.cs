@@ -7,10 +7,10 @@
 */
 int hdwf;
 
-Console.WriteLine("Open automatically the first available device");
+Console.WriteLine("Automatically open the first available device");
 dwf.FDwfDeviceOpen(-1, out hdwf);
 
-Console.WriteLine("Generating waveform for 5 seconds...");
+Console.WriteLine("Generating waveform");
 // enable first channel
 dwf.FDwfAnalogOutNodeEnableSet(hdwf, 0, dwf.AnalogOutNodeCarrier, 1);
 // set sine function

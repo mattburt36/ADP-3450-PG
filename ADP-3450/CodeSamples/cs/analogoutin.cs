@@ -29,12 +29,9 @@ dwf.FDwfAnalogInFrequencySet(hdwf, 1000000);
 dwf.FDwfAnalogInChannelRangeSet(hdwf, -1, 4);
 dwf.FDwfAnalogInBufferSizeSet(hdwf, nSamples);
 
-Console.WriteLine("Wait after first device opening the analog in offset to stabilize\n");
-
 Console.WriteLine("Starting acquisition\n");
 dwf.FDwfAnalogInConfigure(hdwf, 1, 1);
 
-Console.WriteLine("Waiting to finish... ");
 while (true)
 {
     dwf.FDwfAnalogInStatus(hdwf, 1, out sts);

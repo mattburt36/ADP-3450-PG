@@ -17,20 +17,13 @@ public class ADP3450Application
 
     private int deviceHandle; // Store the device handle
 
-    public bool OpenDevice()
+    public void OpenDevice()
     {
-        // Open the ADP3450 device
-        int result = dwf.FDwfDeviceOpen(0, out deviceHandle);
-        if (result == Ok)
-        {
-            // Device opened successfully
-            return true;
-        }
-        else
-        {
-            // Error occurred while opening the device
-            return false;
-        }
+        // Open Device
+        // Opens a device identified by the enumeration index and retrieves a handle. To automatically
+        //enumerate all connected devices and open the first discovered device, use index - 1.
+        dwf.FDwfDeviceOpen(-1, out deviceHandle);
+
     }
 
     public void CloseDevice()
@@ -45,7 +38,6 @@ public class ADP3450Application
 
     public void GenerateSignal()
     {
-        // Configure and generate signals using the provided DWF functions
         // Example usage:
         // FDwfAnalogOutEnableSet(deviceHandle, channel, 1); // Enable analog output channel
         // FDwfAnalogOutFunctionSet(deviceHandle, channel, func); // Set function for the channel
@@ -76,7 +68,6 @@ public class ADP3450Application
 
     public void ListenToSignal()
     {
-        // Configure and listen to signals using the provided DWF functions
         // Example usage:
         // FDwfAnalogInConfigure(deviceHandle, 1, 1); // Configure analog input channel
         // ... continue configuring other settings and listening to the signal
@@ -122,29 +113,23 @@ public class Program
         ADP3450Application app = new ADP3450Application();
 
         // Open the ADP3450 device
-        if (app.OpenDevice())
+        app.OpenDevice();
+        try
         {
-            try
-            {
-                // Generate signals
-                app.GenerateSignal();
+            // Generate signals
+            app.GenerateSignal();
 
-                // Listen to signals
-                app.ListenToSignal();
+            // Listen to signals
+            app.ListenToSignal();
 
-                // Add any other logic or user interaction here
+            // Add any other logic or user interaction here
 
-                // Close the ADP3450 device
-                app.CloseDevice();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("An error occurred: " + ex.Message);
-            }
+            // Close the ADP3450 device
+            app.CloseDevice();
         }
-        else
+        catch (Exception ex)
         {
-            Console.WriteLine("Failed to open the ADP3450 device.");
+            Console.WriteLine("An error occurred: " + ex.Message);
         }
     }
 }

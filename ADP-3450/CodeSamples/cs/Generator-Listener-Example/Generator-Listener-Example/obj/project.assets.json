@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\eng\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\CodeSamples\\cs\\Generator-Listener-Example\\Generator-Listener-Example\\Generator-Listener-Example.csproj",
+      "projectName": "Generator-Listener-Example",
+      "projectPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\CodeSamples\\cs\\Generator-Listener-Example\\Generator-Listener-Example\\Generator-Listener-Example.csproj",
+      "packagesPath": "C:\\Users\\eng\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\CodeSamples\\cs\\Generator-Listener-Example\\Generator-Listener-Example\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\eng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
