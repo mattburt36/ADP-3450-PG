@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BKqPG9VgBvLUomi8rlcBWJAuusjMGmraPKIfyYwfEFQBTnqp3mneE7VFHlss2KOzRjd/fjpcSp+Ax/6AntEmZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\Waveform-App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eng\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\eng\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\eng\\.nuget\\packages\\scottplot\\4.1.64\\scottplot.4.1.64.nupkg.sha512",
+    "C:\\Users\\eng\\.nuget\\packages\\scottplot.winforms\\4.1.64\\scottplot.winforms.4.1.64.nupkg.sha512",
+    "C:\\Users\\eng\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\eng\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

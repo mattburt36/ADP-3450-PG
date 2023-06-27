@@ -6,8 +6,6 @@
 */
 #region Variables
 #region General vars
-using System.Runtime.InteropServices;
-
 int devHandle;
 #endregion
 
