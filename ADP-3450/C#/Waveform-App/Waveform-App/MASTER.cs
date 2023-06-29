@@ -12,9 +12,6 @@ namespace Waveform_App
         #region Variables
 
         #region Generator vars
-        int outChannel = 0;
-        double outVoltAmplitude = 1.41;
-        double outFrequency = 10000.0;
         private static Thread? _WaveGenThread;
         #endregion
 
@@ -51,6 +48,10 @@ namespace Waveform_App
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            // 
+            // TODO: Check if still connected
+            //
+
             if (bufferQueue.Count > 1)
             {
                 double[] currentBuffer = bufferQueue.Dequeue();
@@ -104,11 +105,19 @@ namespace Waveform_App
                 // Do this once, the ADP will repeat until changes are made 
                 // Probably doesn't need it's own thread at this point, just doing this for 
                 // consistency of dealing with different parts of the ADP
-                _WaveGenThread = new Thread(Write)
+                /*
+                 * int outChannel = 0;
+                 * double outVoltAmplitude = 1.41;
+                 * double outFrequency = 10000.0;
+                 */
+                _WaveGenThread = new Thread(() =>
+                {
+                    // Add text box data here 
+                    Write(0, 1.41, 10000.0);
+                })
                 {
                     Priority = ThreadPriority.Normal
                 };
-
                 // Start wavegen thread 
                 _WaveGenThread.Start();
 
@@ -134,7 +143,13 @@ namespace Waveform_App
 
         private void updateWritingButton_Click(object sender, EventArgs e)
         {
+            if(_WaveGenThread.IsAlive)
+            {
+                _WaveGenThread.Abort();
+                formsPlot1.Plot.Clear();
+            }
 
+            // Restart the writing to ADP3450 parameters 
         }
 
         private void updateReadingButton_Click(object sender, EventArgs e)
@@ -157,7 +172,7 @@ namespace Waveform_App
         // Consider adding values to pass to write function to adjust the settings being written to the
         // WFG, object? class? same same?
         //-----------------------------------------------------------------------------------------------
-        public void Write()
+        public void Write(int outChannel, double outVoltAmplitude, double outFrequency)
         {
             #region Create signal
             // enable first channel
@@ -252,9 +267,9 @@ namespace Waveform_App
                 } while (status != dwf.stsDone);
 
                 // Retrieve the data
-                dwf.FDwfAnalogInStatusData(devHandle, inChannel, currentBuffer, bufferSize);
+                dwf.FDwfAnalogInStatusData(devHandle, 0, currentBuffer, bufferSize);
 
-                // Add the current buffer to the queue
+                // Add the buffer to the queue
                 bufferQueue.Enqueue(currentBuffer);
             }
         }

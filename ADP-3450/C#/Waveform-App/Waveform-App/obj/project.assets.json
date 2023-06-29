@@ -288,11 +288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\Waveform-App.csproj",
+      "projectUniqueName": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PLAYGROUND\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\Waveform-App.csproj",
       "projectName": "Waveform-App",
-      "projectPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\Waveform-App.csproj",
+      "projectPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PLAYGROUND\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\Waveform-App.csproj",
       "packagesPath": "C:\\Users\\eng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PG\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\obj\\",
+      "outputPath": "C:\\Users\\eng\\Desktop\\Workspace\\CODE\\sloan\\ADP-3450-PLAYGROUND\\ADP-3450\\C#\\Waveform-App\\Waveform-App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eng\\AppData\\Roaming\\NuGet\\NuGet.Config",

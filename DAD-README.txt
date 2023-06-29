@@ -17,4 +17,6 @@ To add Scottplot to another application (YOU SHOULDN'T HAVE TO DO IT FOR THIS ON
 I've added the dwf.cs file so that access to the dwf.dll file is easier to manage, just make sure the device 
 and the digilent applications are installed correctly and you won't have any issues 
 
-If anything goes wrong run 
+If anything goes wrong, run. 
+
+Have fun with it!
