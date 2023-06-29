@@ -6,36 +6,32 @@ namespace Waveform_App
         // https://scottplot.net/cookbook/4.1/
         // https://scottplot.net/faq/live-data/
         // https://github.com/mattburt36/ADP-3450-PG
+        // https://refactoring.guru/ I WISH I KNEW ABOUT THIS ONE WHEN I STARTED 
         // W:\Matt-Sloan-Work\DOCS-Drivers\WaveForms SDK Reference Manual.pdf
         #endregion
 
         #region Variables
+        bool firstTime = true;
 
-        #region Generator vars
         private static Thread? _WaveGenThread;
-        #endregion
+        private static Thread? _OscilloscopeThread;
 
-        #region Oscilloscope vars
         int inChannel = 0;
+        int triggerTimeOut = 10;
+        int devHandle;
+        int bufferSize;
+        //int minBufferSize; Don't need now, might need some day 
+        //int maxBufferSize;
+
+        byte status;
+
         double inVoltRange = 5;
         double inFrequency = 300000.0;
-        int minBufferSize;
-        int maxBufferSize;
-        int bufferSize;
-        byte status;
         double triggerVoltLevel = 1.0;
-        int triggerTimeOut = 10;
-        private static Thread? _OscilloscopeThread;
-        private Queue<double[]> bufferQueue = new Queue<double[]>();
-        #endregion
-
-        #region General vars
         double hzIndx = 0;
         double vrtIndx = 0;
-        int devHandle;
-        bool firstTime = true;
-        #endregion
 
+        private Queue<double[]> bufferQueue = new Queue<double[]>();
         #endregion
 
         #region Functions
@@ -102,17 +98,11 @@ namespace Waveform_App
             {
                 connectButton.Enabled = false;
 
-                // Do this once, the ADP will repeat until changes are made 
-                // Probably doesn't need it's own thread at this point, just doing this for 
-                // consistency of dealing with different parts of the ADP
-                /*
-                 * int outChannel = 0;
-                 * double outVoltAmplitude = 1.41;
-                 * double outFrequency = 10000.0;
-                 */
+                // Do once, The ADP will repeat the output until changes are made 
                 _WaveGenThread = new Thread(() =>
                 {
-                    // Add text box data here 
+                    // Add text box data here
+                    // 
                     Write(0, 1.41, 10000.0);
                 })
                 {
